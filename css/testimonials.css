@@ -1,0 +1,130 @@
+.page-header h1 {
+    margin-bottom: 0px !important;
+}
+.article-body {
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icons {
+    position: absolute;
+}
+
+.article-inner-body {
+    width: 100%;
+}
+
+dl.fields-container {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding: 20px;
+    background: #eeeeee;
+}
+
+dd.field-entry {
+    line-height: 1.5;
+}
+
+span.field-label {
+    font-weight: 700;
+    color: #333333;
+}
+
+article.testimonial {
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.category-desc.clearfix {
+    display: flex;
+    align-items: center;
+}
+
+.article-img {
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.article-img-container {
+    position: relative !important;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.img-tag-style {
+    float: left;
+}
+
+.item-image {
+    float: left !important;
+    margin-right: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+article.testimonial {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.system-unpublished {
+    float: left;
+    position: relative;
+}
+
+.testimonial-inner-container.img-tag-style {
+    width: 100%;
+}
+
+.item {
+    float: left;
+    width: 100%;
+}
+
+.items-row {
+    float: left;
+}
+
+@media screen and (max-width: 768px) {
+    .item-image {
+        width: 100% !important;
+        text-align: center;
+        padding: 20px;
+        background: #eeeeee;
+        margin-bottom:25px;
+    }
+    dl.fields-container {
+        width:100%;
+        margin-top:25px;
+    }
+    .article-body {
+        padding-left:0px;
+    }
+}
+
+
+.system-unpublished article {
+    opacity: .5;
+    filter: grayscale(100%);
+}
+
+span.label.label-warning {
+    font-size: 2em;
+    position: absolute;
+    top: -8px;
+    z-index: 3;
+    line-height: 1;
+    padding: 10px;
+}
